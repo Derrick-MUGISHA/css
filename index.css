@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* h1 {
+    color: navy;
+} */
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color:azure
+}
+/* element selector */
+p {
+    color: blue
+}
+
+/* class selector */
+.heading {
+
+    color: aqua;
+}
+
+/* id selector */
+
+#heading-one {
+    color: red
+}
+
+/* groupe selector */
+
+h1,h2,h3,h4,h5,h6 {
+    color: blue
+}
+
+/* Attribute selector */
+
+input[type="text"] {
+    border: 1px solid red;
+}
+
+/* descendant selector */
+
+.division span {
+    color: blue
+}
+
+/* child combinator */
+
+.division > p {
+    color: black;
+}
+
+h2 + p {
+    color: red;
+}
+
+h2 ~ p {
+    color: green;
+}
